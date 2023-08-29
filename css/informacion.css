@@ -1,0 +1,127 @@
+.informacion{
+    grid-column: 1/13;
+    padding: 0 1.7rem 0 1.4rem;
+}
+@media (min-width:768px ) { 
+    .informacion{
+        grid-column: 2/12;
+
+        display: grid;
+        grid-template-columns: 1fr 4fr 2fr;
+        padding: 0;
+    }
+}
+.informacion__detalle{
+    margin: 0 3rem;
+}
+@media (min-width:768px ) { 
+    .informacion__detalle{
+        grid-column: 2/3;
+        margin: 0 3rem 0 0;
+    }
+}
+
+.informacion__detalle-encabezado {
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+@media (min-width:768px ) { 
+    .informacion__detalle-encabezado{
+        font-size: 1.8rem;
+    }
+}
+
+.informacion__detalle-encabezado--azul{
+    font-weight: 400;
+    color: var(--azul);
+}
+@media (min-width:768px ) { 
+    .informacion__detalle-encabezado--azul{
+        margin-bottom: 1.5rem;
+    }
+}
+
+.informacion__detalle-encabezado--negro{
+    color: var(--negro-claro);
+    margin-top: 3.3rem;
+}
+@media (min-width:768px ) { 
+.informacion__detalle-encabezado--negro{
+    margin-bottom: 4.2rem;
+}
+}
+
+.informacion__titulo{
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+@media (min-width:768px ) { 
+    .informacion__titulo{
+        grid-column: 2/3;
+        font-size: 4.8rem;
+        line-height: 7.2rem;
+    }
+}
+
+.informacion__contenedor-imagen{
+    align-items: center;
+    margin: 1.5rem 0 2.2rem 0;
+}
+@media (min-width:768px ) { 
+    .informacion__contenedor-imagen{
+        grid-column: 1/4;
+        margin: 4.3rem 0;
+    }
+}
+
+.informacion__imagen{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.8rem;
+}
+
+.informacion__contacto{
+    margin: 0 3rem 0 3rem;
+    width: min-content;
+}
+@media (min-width:768px ) { 
+    .informacion__contacto{
+        grid-column: 2/3;
+        margin: 0;
+}
+}
+
+.contacto__titulo{
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--gris);
+    padding-bottom: .5rem;
+}
+.contacto__input-grupo{
+    background-color: var(--blanco);
+    display: flex;
+    gap: 1rem;
+    padding: .4rem .4rem .4rem 1.9rem;
+    border-radius: 1.2rem; 
+    width: fit-content;   
+}
+.contacto__input{
+    background-color: var(--blanco);
+    outline: none;
+    border: none;
+}
+.contacto__boton{
+    background-color: var(--azul);
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1.2rem;
+    color: var(--blanco);
+}

@@ -1,0 +1,28 @@
+:root{
+    --azul:#2D9CDB;
+    --verde:#27AE60;
+    --negro: #333333;
+    --negro-claro:#4F4F4F;
+    --gris:#828282;
+    --gris-claro:#BDBDBD;
+    --blanco:#F2F2F2;
+    --color-boton:#E0E0E0;
+    --rojo:#EB5757;
+    --azul-marino:#100E4D;
+}
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
